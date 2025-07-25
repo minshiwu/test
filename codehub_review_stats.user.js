@@ -15,7 +15,7 @@
     const CONFIG = {
         PROPOSER_ID: '736', // 固定的检视人ID
         GROUP_ID: '17645',  // 从URL中提取的组ID
-        AUTO_CLOSE_DELAY: 5000 // 5秒后自动关闭
+        AUTO_CLOSE_DELAY: 10000 // 10秒后自动关闭
     };
     
     // 获取当前月份的开始和结束时间
@@ -222,7 +222,7 @@
                     检视意见数量: ${result.total}
                 </p>
                 <p style="margin: 0; color: #666; font-size: 14px;">
-                    此弹层将在5秒后自动关闭
+                    此弹层将在10秒后自动关闭
                 </p>
             `;
             content.appendChild(statsText);
